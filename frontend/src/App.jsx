@@ -19,6 +19,7 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin}/>
         <Routes>
           <Route path='/' element={<Home />} />
+<Route path='/Food Delivery' element={<Home />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />
 
@@ -32,4 +33,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App
